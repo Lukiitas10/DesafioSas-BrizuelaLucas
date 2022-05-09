@@ -6,28 +6,27 @@
   padding: 30px 0px;
 }
 
-.gpu-nvidia-icono {
-  width: 120px;
-  height: 22px;
-}
 .container-card {
   width: 300px;
   height: 400px;
-}
-.nvidia-card {
-  border: 2px $color-nvidia solid;
-  border-radius: 15px;
-  transition: all 0.4s ease;
-}
-.nvidia-card:hover {
-  box-shadow: $color-nvidia 0px 0px 10px;
-}
-
-.amd-card {
-  border: 2px $color-amd solid;
-  border-radius: 15px;
-  transition: all 0.4s ease;
-}
-.amd-card:hover {
-  box-shadow: $color-amd 0px 0px 10px;
+  .nvidia-card {
+    border: 2px $color-nvidia solid;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    &:hover {
+      box-shadow: $color-nvidia 0px 0px 10px;
+    }
+  }
+  .amd-card {
+    border: 2px $color-amd solid;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    &:hover {
+      box-shadow: $color-amd 0px 0px 10px;
+    }
+  }
+  .gpu-nvidia-icono {
+    width: 120px;
+    height: 22px;
+  }
 }

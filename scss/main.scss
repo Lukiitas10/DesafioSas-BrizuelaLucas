@@ -37,8 +37,8 @@ iframe {
   height: 30px;
   width: 30px;
   transition: all 0.4s ease;
-}
-.iconos-footer:hover {
-  box-shadow: #ffffff 0px 1px 8px;
-  border-radius: 5px;
+  &:hover {
+    box-shadow: #ffffff 0px 1px 8px;
+    border-radius: 5px;
+  }
 }
