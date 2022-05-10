@@ -129,21 +129,23 @@ h2:after {
 .container-card {
   width: 300px;
   height: 400px; }
-  .container-card .nvidia-card {
-    border: 2px #78ba01 solid;
-    border-radius: 15px;
-    transition: all 0.4s ease; }
-    .container-card .nvidia-card:hover {
-      box-shadow: #78ba01 0px 0px 10px; }
-  .container-card .amd-card {
-    border: 2px #ed1c24 solid;
-    border-radius: 15px;
-    transition: all 0.4s ease; }
-    .container-card .amd-card:hover {
-      box-shadow: #ed1c24 0px 0px 10px; }
   .container-card .gpu-nvidia-icono {
     width: 120px;
     height: 22px; }
+
+.amd-card {
+  border: 2px #ed1c24 solid;
+  border-radius: 15px;
+  transition: all 0.4s ease; }
+  .amd-card:hover {
+    box-shadow: #ed1c24 0px 0px 10px; }
+
+.nvidia-card {
+  border: 2px #78ba01 solid;
+  border-radius: 15px;
+  transition: all 0.4s ease; }
+  .nvidia-card:hover {
+    box-shadow: #78ba01 0px 0px 10px; }
 
 /* Productos */
 table {
