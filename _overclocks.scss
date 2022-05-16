@@ -1,19 +1,8 @@
 /* Overclocks */
-.caja-centrada {
-  width: 300px;
-  margin: 16px auto;
-  line-height: 2;
-  padding: 30px 0px;
-}
 
-.container-card {
-  width: 300px;
-  height: 400px;
-
-  .gpu-nvidia-icono {
-    width: 120px;
-    height: 22px;
-  }
+.gpu-nvidia-icono {
+  width: 120px;
+  height: 22px;
 }
 .amd-card {
   border: 2px $color-amd solid;

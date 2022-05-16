@@ -1,0 +1,13 @@
+$redes: (
+  facebook: #3a5795,
+  youtube: red,
+  twitter: #55acee,
+  instagram: #c25e30,
+);
+
+@each $red, $color in $redes {
+  .social-#{$red} {
+    color: $color;
+    font-size: 1.5rem;
+  }
+}

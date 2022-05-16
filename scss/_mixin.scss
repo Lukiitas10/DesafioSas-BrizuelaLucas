@@ -1,0 +1,10 @@
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+.container-card {
+  @include sizes(300px, 300px);
+}
+.container-card1 {
+  @include sizes(300px, 380px);
+}

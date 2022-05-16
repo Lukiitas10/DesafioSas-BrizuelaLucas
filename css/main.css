@@ -1,3 +1,37 @@
+.caja-centrada, .caja-centrada--borde {
+  width: 300px;
+  margin: 16px auto;
+  line-height: 2;
+  padding: 30px 0px; }
+
+.caja-centrada--borde {
+  border: 3px solid;
+  padding: 1rem; }
+
+.container-card {
+  width: 300px;
+  height: 300px; }
+
+.container-card1 {
+  width: 300px;
+  height: 380px; }
+
+.social-facebook {
+  color: #3a5795;
+  font-size: 1.5rem; }
+
+.social-youtube {
+  color: red;
+  font-size: 1.5rem; }
+
+.social-twitter {
+  color: #55acee;
+  font-size: 1.5rem; }
+
+.social-instagram {
+  color: #c25e30;
+  font-size: 1.5rem; }
+
 /* Header */
 header {
   position: sticky;
@@ -120,18 +154,9 @@ h2:after {
   -webkit-text-fill-color: transparent; }
 
 /* Overclocks */
-.caja-centrada {
-  width: 300px;
-  margin: 16px auto;
-  line-height: 2;
-  padding: 30px 0px; }
-
-.container-card {
-  width: 300px;
-  height: 400px; }
-  .container-card .gpu-nvidia-icono {
-    width: 120px;
-    height: 22px; }
+.gpu-nvidia-icono {
+  width: 120px;
+  height: 22px; }
 
 .amd-card {
   border: 2px #ed1c24 solid;
@@ -296,7 +321,7 @@ form {
 
 /* Overclocks */
 @media screen and (min-width: 768px) {
-  .caja-centrada {
+  .caja-centrada, .caja-centrada--borde {
     width: 700px; } }
 
 @media screen and (min-width: 768px) {
